@@ -1,0 +1,51 @@
+
+body {
+    font-family: sans-serif
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #2d2d83;
+}
+
+.qst-crd {
+    font-size: medium;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tgs {
+ position: absolute;
+ bottom: 10px;
+ left: 10;
+ font-size: 10px;
+ color: #3498db;
+}
+
+.tg-bx {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: rgb(255, 128, 0);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.bkmrk {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #3498db;
+}
+
+.btn {
+    letter-spacing: .5px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 30;
+}
