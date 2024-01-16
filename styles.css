@@ -1,37 +1,43 @@
 
 body {
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 header {
+    display: flex;
+    margin: 20;
+    align-items: flex-start;
+    font-size: 25px;
     text-align: center;
+    color: #f4f3fa;
     padding: 30px;
-    background-color: #2d2d83;
+    background-color: f84f39
 }
 
 .qst-crd {
-    font-size: medium;
+    font-size: 20;
     border: 1px solid #ddd;
     padding: 20px;
     margin: 20px;
+    color: 6b66da;
     position: relative;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: f4f3fa;
+    box-shadow: 0 4px 8px #e4e4f0;
 }
-.tgs {
+.tgs {  
  position: absolute;
  bottom: 10px;
  left: 10;
  font-size: 10px;
- color: #3498db;
+ color: #2a966f;
 }
 
 .tg-bx {
     display: inline-block;
     margin-right: 5px;
     padding: 5px;
-    background-color: rgb(255, 128, 0);
-    color: #fff;
+    background-color: f84f39;
+    color: #f4f3fa;
     border-radius: 5px;
 }
 
@@ -44,8 +50,62 @@ header {
 }
 
 .btn {
-    letter-spacing: .5px;
-    position: relative;
-    margin-bottom: 50px;
-    margin-top: 30;
+    display: block;
+    font-size: medium;
+    padding: 10;
+    margin: 50px auto;
+    background-color: #2a966f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
 }
+
+footer {
+    font-size: 20;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+    color: 6b66da;
+    position: relative;
+    background-color: #f84f39;
+    box-shadow: 0 8px 16px #2a966f;
+
+}
+
+nav {
+    display: flex;
+    justify-content:left;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2b966f;
+    font-weight: bold;
+    transition: color 1s;
+}
+
+nav a:hover {
+    color: #2b966f;
+    background-color: f4f3fa;
+    ;
+}
+
+ 
+ .one {
+        flex: 1;
+        height: 30;
+      }
+      
+      .two {
+        flex: 1;
+        height: 30
+      }
+      
+      .three {
+        flex: 1;
+        height: 30
+      }
